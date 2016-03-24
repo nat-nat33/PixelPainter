@@ -18,11 +18,21 @@ h1 {
   padding: 5px;
 }
 
-table {
-  background:#7f7f7f;
-  background:rgba(0,0,0,0.5);
+input{
+  margin-left: 1%;
+}
+
+#colorpicker{
+  color: white;
+  font-family: georgia;
+  margin-left: 5%;
+}
+
+table.colorpick{
+  background: rgba(146, 146, 146, 0.5);
   padding: 5px;
   position: relative;
+  margin-left: 5%;
 }
 
 #colors td {
@@ -33,26 +43,27 @@ table {
 
 
 #lastColorBlock{
-  width: 244px;
+  width: 234px;
   display: inline-block;
   position: relative;
   border: 1px;
-  background:#7f7f7f;
-  background:rgba(0,0,0,0.5);
+  background-color: rgba(146, 146, 146, 0.5);
   padding: 5px;
+  margin-left: 5%;
 }
 
 #lastColorBlock .lastColor{
   display: inline-block;
   border-radius: 10px;
   height: 26px;
-  width: 26px;
+  width: 27px;
   margin-left: 2px;
 }
 
 #holder{
   width: 300px;
   display: inline-block;
+  margin-left: 5%;
 }
 
 
@@ -97,8 +108,8 @@ table {
   border: solid black 2px;
   display: inline-block;
   position: absolute;
-  top: 186px;
-  left: 317px;
+  top: 36%;
+  left: 37%;
   -webkit-box-shadow: 0 11px 11px 0px black;
   -moz-box-shadow: 0 11px 11px 0px black;
   box-shadow: 0 11px 11px 0px black;

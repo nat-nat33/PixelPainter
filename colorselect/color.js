@@ -6,7 +6,7 @@ function colorGen(){
 	var input = document.createElement('input');
 	input.type = 'color';
 	input.value = '#000000';
-  input.id = 'currentColor';
+  	input.id = 'currentColor';
 
 	document.getElementById('colorpicker').appendChild(input);
 	input.style.width = '100px';
@@ -14,7 +14,7 @@ function colorGen(){
 
 	//creates last colors selected bank
 	var blocks = 0;
-  var modulolimit = 8;
+  	var modulolimit = 8;
 
 	input.onchange = function() {
 	 var child = document.getElementById('lastColorBlock').children;
